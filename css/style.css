@@ -1,0 +1,98 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.container h2 {
+  border-radius: 5px 5px 0px 0px;
+  background-color: #5C636A;
+  color: #fff !important;
+  margin-bottom: 20px !important;
+}
+
+/* Estilo Formulário */
+#FormCalculation {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #5C636A;
+  height: 290px;
+  padding: 0;
+}
+
+#InputForm {
+  /*border: 1px solid #CED4DA;
+  border-radius: 5px 5px 5px 5px;*/
+  padding: 10px 20px 5px 20px;
+  height: 210px;
+  width: 38%;
+  margin-right: 0 !important;
+  margin-bottom: 20px;
+  float: left;
+}
+
+#BtnCalculate {
+  float: right;
+}
+
+/* Estilo tabela */
+#DetailTable {
+  height: 210px;
+  border-color: #fff;
+  width: 55%;
+  float: right;
+  margin-right: 20px
+}
+
+#DetailTable thead{
+  color: #fff;
+  background-color: #5C636A;
+  text-align: center;
+  font-weight: bold;
+}
+
+#DetailTable thead{
+  color: #fff;
+  background-color: #836FFF; 
+  text-align: center;
+  font-weight: bold;
+}
+
+#DetailTable .subtitle {
+  color: #fff;
+  background-color: #5C636A;
+  font-weight: bold;
+}
+
+#DetailTable .value {
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
+#DetailTable .green {
+  color: green;
+  background-color: #90EE90;
+}
+
+#DetailTable .yellow {
+  color: #FFA500;
+  background-color: #F0E68C;
+}
+
+#DetailTable .red {
+  color: #930101;
+  background-color: #f05151;
+}
+
+/* Estilo Ação */
+#OutputArea {
+  margin-top: 20px;
+  height: 45vh;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #5C636A;
+  background-color: #F0F1F2;
+}
