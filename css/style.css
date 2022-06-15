@@ -19,13 +19,11 @@ html, body {
 #FormCalculation {
   border-radius: 5px 5px 5px 5px;
   border: 1px solid #5C636A;
-  height: 290px;
+  height: 100%;
   padding: 0;
 }
 
 #InputForm {
-  /*border: 1px solid #CED4DA;
-  border-radius: 5px 5px 5px 5px;*/
   padding: 10px 20px 5px 20px;
   height: 210px;
   width: 38%;
@@ -40,7 +38,7 @@ html, body {
 
 /* Estilo tabela */
 #DetailTable {
-  height: 210px;
+  height: 20% !important;
   border-color: #fff;
   width: 55%;
   float: right;
@@ -91,8 +89,14 @@ html, body {
 /* Estilo Ação */
 #OutputArea {
   margin-top: 20px;
-  height: 45vh;
+  height: 120%;
   border-radius: 5px 5px 5px 5px;
   border: 1px solid #5C636A;
   background-color: #F0F1F2;
+}
+
+#Response{
+  margin-top: 7%;
+  font-size: 50px;
+  color: #5C636A;
 }
